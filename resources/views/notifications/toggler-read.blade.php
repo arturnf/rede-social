@@ -1,0 +1,1 @@
+<i class="fa-solid fa-bell" id="bell-icon-with-badge"></i>

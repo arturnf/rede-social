@@ -1,0 +1,138 @@
+.container-new-puble{
+    width: 90%;
+    max-width: 500px;
+    color: #ffffff;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 4px;
+}
+
+.subtitulo {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.upload-area {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background: #112b38;
+    border: 1px dashed #fafafa;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.upload-area:hover {
+    background: #234252;
+}
+
+.upload-area img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.upload-area i {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.caption {
+    margin-top: 30px;
+}
+
+.caption textarea {
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    resize: none;
+    border: 1px solid #203641;
+    background-color: #112b38;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: inherit;
+}
+
+.caption textarea::placeholder {
+    color: #adadad;
+}
+
+.caption textarea:focus {
+    border-color: #3a86b3;
+}
+
+.caption textarea::-webkit-scrollbar {
+    width: 8px; 
+}
+
+
+.caption textarea::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 8px;
+}
+
+
+.caption textarea::-webkit-scrollbar-thumb {
+    background-color: #3a86b3; 
+    border-radius: 8px;
+    border: 2px solid #3a86b3;
+}
+
+.caption textarea::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
+
+.btn-publicar {
+    width: 100%;
+    background:#3a86b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-publicar:hover {
+    background: #285975;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.placeholder {
+    text-align: center;
+}
+
+.placeholder svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 6px;
+    opacity: 0.6;
+}
+
+@media (max-width: 990px) {
+
+    .caption textarea {
+        font-size: 16px;
+    }
+}

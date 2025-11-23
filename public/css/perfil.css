@@ -1,0 +1,365 @@
+main .container-main-perfil {
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+
+
+
+.confirmSolicitacao {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #161616;
+    margin-bottom: 25px;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.textConfirm {
+    max-width: 40%;
+}
+
+.textConfirm p span {
+    color: rgb(122, 122, 122);
+}
+
+.textConfirm p strong {
+    word-break: break-all;
+}
+
+.buttonsConfirm {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.buttonsConfirm a {
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s;
+}
+
+.ac {
+    background-color: #0a83a1;
+}
+
+.ac:hover {
+    background-color: #095163;
+}
+
+.rc {
+    background-color: rgb(34, 34, 34);
+}
+
+.rc:hover {
+    background-color: #0a0a0a;
+}
+
+
+
+
+.postEmpty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    margin-top: 100px;
+    color: rgb(151, 151, 151);
+}
+
+#animacao {
+    width: 250px;
+}
+
+
+
+
+.box-img {
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding: 0px 50px 0px 50px;
+}
+
+.box-img .img-perfil img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+
+.name-user {
+    padding-top: 20px;
+    padding-left: 20px;
+    max-width: 340px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.name-user h4 {
+    font-size: 25px;
+    max-width: 340px;
+}
+
+.name-user p {
+    color: var(--text-color-secondary);
+}
+
+.name-user p i {
+    font-size: 13px;
+}
+
+.button-seguir,
+.button-seguindo,
+.button-config {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+
+.button-seguir a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    background-color: var(--button-color);
+}
+
+.button-seguir .solicitado {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(49, 49, 49);
+    overflow: hidden;
+    background-color: transparent;
+    font-size: 13px;
+}
+
+.button-seguir .solicitado::after {
+    content: 'Solicitado';
+    transition: opacity 0.2s;
+}
+
+.button-seguir .solicitado:hover::after {
+    content: 'Cancelar';
+    color: red;
+}
+
+.button-seguindo a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(49, 49, 49);
+    overflow: hidden;
+    font-size: 13px;
+}
+
+
+.button-seguindo a::after {
+    content: 'Seguindo';
+    transition: opacity 0.2s;
+}
+
+.button-seguindo a:hover::after {
+    content: 'Deixar de seguir';
+    color: red;
+}
+
+.button-config a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--text-color);
+    padding: 10px 11px 10px 11px;
+    border-radius: 100%;
+    border: 1px solid rgb(49, 49, 49);
+    transition: all 0.4s;
+}
+
+.button-config a:hover {
+    background-color: rgb(29, 29, 29);
+}
+
+
+
+
+.box-bio {
+    color: rgb(192, 192, 192);
+    width: 40%;
+    min-height: 70px;
+    margin-left: 70px;
+    padding-bottom: 10px;
+}
+
+.tagDono {
+    background-color: #095163;
+    font-size: 12px;
+    margin-top: 10px;
+    max-width: 100px;
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    align-items: center;
+    color: rgb(202, 202, 202);
+    box-shadow: #0a83a1 0px 0px 30px 0px;
+}
+
+
+.info-perfil {
+    width: 100%;
+    display: flex;
+    padding-left: 40px;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.info01,
+.info02 {
+    color: rgb(190, 189, 189);
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0a0a0a;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.info01 h4,
+.info02 h4 {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.info01 p,
+.info02 p {
+    font-size: 14px;
+}
+
+
+.line {
+    background-color: #0a0a0a;
+    width: 93%;
+    height: 1px;
+    margin: auto;
+}
+
+
+.posts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 2px;
+}
+
+.posts .ln {
+    width: 30%;
+
+}
+
+.posts .ln img {
+    width: 100%;
+
+}
+
+
+
+@media (max-width: 1150px) {
+    .box-img .img-perfil img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .button-seguir a {
+        padding: 5px 20px 5px 20px;
+    }
+}
+
+
+
+@media (max-width: 990px) {
+
+    .main .container-main-perfil {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .box-img {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .button-seguir,
+    .button-config,
+    .button-seguindo {
+        right: 20px;
+    }
+
+    .button-seguindo a {
+        font-size: 12px;
+    }
+
+    .box-img .img-perfil img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .name-user {
+        padding-top: 10px;
+        padding-left: 10px;
+        max-width: 150px;
+    }
+
+
+    .name-user h4 {
+        font-size: 16px;
+    }
+
+    .name-user p {
+        font-size: 14px;
+    }
+
+
+    .button-seguir,
+    .button-config,
+    .button-seguindo {
+        top: 17px;
+    }
+
+    .button-seguir a {
+        padding: 5px 18px 5px 18px;
+    }
+
+
+    .box-bio {
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    .info-perfil {
+        padding-left: 17px;
+    }
+}
+
+
+@media (max-width: 425px) {}
